@@ -4,7 +4,9 @@
   "description": "",
   "main": "actionwords.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.0.0-rc.0"
+  },
   "scripts": {
     "test": "cucumber-js"
   },
