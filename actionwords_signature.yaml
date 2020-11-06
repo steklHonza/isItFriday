@@ -1,0 +1,14 @@
+---
+- name: today is Sunday
+  uid: d1d03429-6a2c-474b-aa7b-71e512f36df0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I ask whether it's Friday yet
+  uid: 954faa83-928d-476e-97eb-fc7fd6155335
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I should be told "p1"
+  uid: fe32d9bd-a744-4bff-a1cd-fbb3cc8ca335
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
