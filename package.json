@@ -1,0 +1,22 @@
+{
+  "name": "isItFriday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "actionwords.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steklHonza/isItFriday.git"
+  },
+  "keywords": [],
+  "author": "Jan Stekl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steklHonza/isItFriday/issues"
+  },
+  "homepage": "https://github.com/steklHonza/isItFriday#readme"
+}
