@@ -1,1 +1,18 @@
-language: javascript
+language: node_js
+node_js:
+  - "8"
+
+sudo: false
+
+before_install:
+  - rvm install 2.3
+  - rvm use 2.3
+  - gem install hiptest-publisher
+  - "hiptest-publisher -c cucumber-js.conf --only=features,step_definitions --test-run-id=478000"
+  - npm install
+
+script:
+  - node_modules/.bin/cucumber-js --format=json | node_modules/cucumber-junit/bin/cucumber-junit --features-as-suites > junit_output.xml
+
+after_script:
+  - hiptest-publisher -c cucumber-js.conf --push=junit_output.xml --test-run-id=478000
