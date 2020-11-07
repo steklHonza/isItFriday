@@ -5,7 +5,8 @@
   "main": "actionwords.js",
   "dependencies": {},
   "devDependencies": {
-    "@cucumber/cucumber": "^7.0.0-rc.0"
+    "@cucumber/cucumber": "^7.0.0-rc.0",
+    "cucumber-junit": "^1.7.1"
   },
   "scripts": {
     "test": "cucumber-js"

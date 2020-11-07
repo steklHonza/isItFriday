@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="isitfriday;sunday-isn&apos;t-friday" tests="3" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="features/isItFriday.feature">
+            </property>
+        </properties>
+        <testcase name="Given today is Sunday" classname="isitfriday;sunday-isn&apos;t-friday">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I ask whether it&apos;s Friday yet" classname="isitfriday;sunday-isn&apos;t-friday">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should be told &quot;Nope&quot;" classname="isitfriday;sunday-isn&apos;t-friday">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+</testsuites>
