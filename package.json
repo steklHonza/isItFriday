@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/steklHonza/isItFriday/issues"
   },
-  "homepage": "https://github.com/steklHonza/isItFriday#readme"
+  "homepage": "https://github.com/steklHonza/isItFriday#readme",
+  "cucumberjs-junit": "https://github.com/steklHonza/isItFriday.git"
 }
